@@ -28,6 +28,10 @@ h1,h2,h3,h4,h5,h6{
 	margin: 0;
 }
 
+.header-3{
+    text-align: center;
+}
+
 .clearfix{
 
 }
@@ -43,7 +47,7 @@ header{
   width: 100%;
   height: 100%;
   /* padding: 20px; */
-  border: 2px solid red;
+  /* border: 2px solid red; */
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../image/bgh.jpg);
   background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../image/bgh.jpg);
   background-position: center;
@@ -52,11 +56,18 @@ header{
   overflow: hidden;
   background-repeat: no-repeat;
   display: block;
+  background-attachment: fixed;
 
 }
 
+.moble-bar-box,
+#moblie-side-bar
+{
+        display: none;
+}
+
 .top-bar-title{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     width: 100%; 
     height: 15%;
@@ -102,15 +113,22 @@ li.lang-drop{
     display: none;
     position: absolute;
     z-index: 1;
-    border: 2px solid red;  
+    border: 2px solid var(--secondary-color);  
     right: 0;
     min-width: 160px;
     
 }
+
 ul.lang-content li{
+  margin: 0;
     display: block;
-    
+    /* border: 2px solid red; */
   }
+  ul.lang-content li:hover{
+  background: #dd6a1d;
+    /* border: 2px solid red; */
+  }
+
 
 .lang-content li a{
     display: block;
@@ -125,7 +143,7 @@ ul.lang-content li{
 
   /* --------flex row---- */
 .flex-row{
-    border: 2px solid red;  
+    /* border: 2px solid red;   */
     height: 70%;
     display: flex;
     /* background: #000; */
@@ -153,6 +171,7 @@ align-items: center;
 .btn{
     padding: 15px;
     border: none;
+    margin-top: 20px;
 }
 
 .btn a{
@@ -175,7 +194,7 @@ text-decoration: none;
 
 /* -----footer--- */
 .footer{
-    border: 2px solid red; 
+    /* border: 2px solid red;  */
     display: flex;
     flex-wrap: wrap;
     /* align-items: center; */
@@ -191,6 +210,6 @@ text-decoration: none;
     justify-content: center;
 flex: 1 1 14%;
 text-align: center;
-border: 2px solid red; 
+/* border: 2px solid red;  */
 }
 
