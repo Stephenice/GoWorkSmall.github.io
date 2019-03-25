@@ -1,4 +1,27 @@
 
+/* header */
+.main-log{
+    height: auto;
+    width: 100vw;
+}
+
+.header-log{
+    width: 100%;
+    height: 100%;
+    /* padding: 20px; */
+    /* border: 2px solid red; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../image/bgh.jpg);
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../image/bgh.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    display: block;
+    background-attachment: fixed;
+   
+}
+
 .flex-row-log{
     display: flex;
     width: 35%;
@@ -10,6 +33,7 @@
     color: #000;
     background: rgb(216, 212, 212);
     flex-wrap: wrap;
+    /* margin: 60px; */
 }
 
 .flex-container{
