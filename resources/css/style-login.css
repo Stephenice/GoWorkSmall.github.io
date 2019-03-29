@@ -13,7 +13,7 @@
     background-position: center;
     background-size: cover;
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
     background-repeat: no-repeat;
     display: block;
     background-attachment: fixed;
@@ -31,7 +31,11 @@
     color: #000;
     background: rgb(216, 212, 212);
     flex-wrap: wrap;
-  
+    border-radius: 5px  ;
+    -webkit-border-radius: 5px  ;
+    -moz-border-radius: 5px  ;
+    -ms-border-radius: 5px  ;
+    -o-border-radius: 5px  ;
 }
 
 .flex-container{
@@ -40,14 +44,43 @@
     align-items: center;
     flex-wrap: wrap;
     width: 100%;
+    padding: 40px;
 }
+
+.flex-container > *{
+    margin: 10px 0;
+}
+
 
 .form{
 display: flex;
 flex-direction: column;
 width: 100%;
-padding: 10px;
+padding: 20px;
 }
 
+input[type=email],
+input[type=password],
+input[type=submit]{
+    height: 50px;
+    margin: 10px 0;
+}
+
+.remember{
+display: flex;
+border: 1px solid red;
+margin: 10px 0;
+}
+
+.item1{
+border: 1px solid red;
+flex: 1 1 auto;
+}
+
+.item2{
+    border: 1px solid red;
+    align-content: end;
+    flex: 0 0 auto;
+    }
 
 
