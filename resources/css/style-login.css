@@ -1,4 +1,6 @@
 
+
+
 /* header */
 .main-log{
     height: auto;
@@ -13,7 +15,7 @@
     background-position: center;
     background-size: cover;
     position: relative;
-    /* overflow: hidden; */
+    overflow: hidden;
     background-repeat: no-repeat;
     display: block;
     background-attachment: fixed;
@@ -61,7 +63,8 @@ padding: 20px;
 
 input[type=email],
 input[type=password],
-input[type=submit]{
+input[type=submit],
+button{
     height: 50px;
     margin: 10px 0;
 }
@@ -80,7 +83,7 @@ flex: 1 1 auto;
 .item2{
     border: 1px solid red;
     align-content: end;
-    flex: 0 0 auto;
+    /* flex: 1 1 40%; */
     }
 
 
