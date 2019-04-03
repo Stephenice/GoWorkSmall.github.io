@@ -1,10 +1,13 @@
-
-
+html,
+body > *{
+    overflow-x: hidden;
+    
+}
 
 /* header */
 .main-log{
     height: auto;
-    width: 100vw;
+    min-width: 100vw;
 }
 
 .header-log{
@@ -28,7 +31,7 @@
     width: 35%;
     height: auto;
     margin: 60px auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     justify-content: center;
     color: #000;
     background: rgba(216, 212, 212,0.8);
@@ -47,6 +50,7 @@
     flex-wrap: wrap;
     width: 100%;
     padding: 40px;
+    /* border: 1px solid red; */
 }
 
 .flex-container > *{
@@ -59,6 +63,7 @@ display: flex;
 flex-direction: column;
 width: 100%;
 padding: 20px;
+/* border: 1px solid red; */
 }
 
 input[type=email],
@@ -71,19 +76,30 @@ button{
 
 .remember{
 display: flex;
-border: 1px solid red;
+/* border: 1px solid red; */
 margin: 10px 0;
 }
 
 .item1{
-border: 1px solid red;
+/* border: 1px solid red; */
 flex: 1 1 auto;
 }
 
 .item2{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     align-content: end;
     /* flex: 1 1 40%; */
+    }
+
+    .or,
+    .fbk{
+        /* border: 1px solid red; */
+        /* display: flex; */
+/* flex-direction: column; */
+width: 90%;
+padding: 20px;
+/* border: 1px solid red; */
+text-align: center;
     }
 
 
