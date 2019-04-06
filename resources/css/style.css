@@ -218,5 +218,13 @@ text-align: center;
 /* border: 2px solid red;  */
 }
 
-
+.blog-btn{
+    background: var(--secondary-color);
+    padding: 10px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
 
