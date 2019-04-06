@@ -103,3 +103,16 @@ text-align: center;
     }
 
 
+/* footer */
+
+.footer{
+    display: flex;
+    height: 80px;
+    justify-items: center;
+    align-items: center;
+}
+
+.footer p{
+    flex: 1 1 100%;
+    text-align: center;
+}
