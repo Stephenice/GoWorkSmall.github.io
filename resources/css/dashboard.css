@@ -3,7 +3,7 @@
     --primary-color-hover: #d3071b;
     --secondary-color: #dd6a1d;
     --secondary-color-hover: #1ee661;
-    --light-color: #f4f4f4;
+    --light-color: #faf6f6;
 }
 
 html,
@@ -57,11 +57,8 @@ color:#000;
 }
 .nav a{
     text-decoration: none;
-    border: 1px solid red; 
+    /* border: 1px solid red;  */
     text-align: center;
-    /* display: flex;
-    justify-content: center;
-    align-content: center; */
 }
 
 .left-nav,
@@ -69,27 +66,30 @@ color:#000;
 list-style: none;
 display: grid;
 grid-template-columns: auto auto auto auto auto;
-/* repeat(auto-fit,
-
-minmax(90px, 1fr)); */
-/* grid-gap: 10px; */
 justify-content: space-between;
 align-items: center;
+border: 2px solid var(--light-color); 
+    
+    background: var(--light-color);
 
 }
 
 .left-nav{
-    border: 2px solid red; 
+    border: 2px solid var(--light-color); 
+    box-shadow: 1px 1px 3px 0 rgb(139, 139, 141),
+     1px 1px 3px 0  rgb(139, 139, 141);
+   
 }
 
 .right-nav{
-    border: 2px solid red; 
     grid-column-end: -1;
+    box-shadow: 1px 1px 3px 0  rgb(139, 139, 141),
+    -1px 1px 3px 0  rgb(139, 139, 141);
 }
 
 .left-nav li,
 .right-nav li{
-    border: 2px solid red; 
+    /* border: 2px solid red;  */
     padding: 3px;
     height: 50px;
 display: flex;
