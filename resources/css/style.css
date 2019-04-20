@@ -52,8 +52,8 @@ a{
   height: 100%;
   /* padding: 20px; */
   /* border: 2px solid red; */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../image/bgh.jpg);
-  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../image/bgh.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../image/bg5.jpeg);
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../image/bg5.jpeg);
   background-position: center;
   background-size: cover;
   position: relative;
